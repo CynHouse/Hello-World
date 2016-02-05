@@ -1,1 +1,6 @@
 <access origin="swcdomain.co.uk" subdomains="true" />
+
+<platform name="android">
+  <icon src="android/ldpi.png" gap:platform="android" gap:density="ldpi" />
+  <splash src="android/ldpi.png" gap:platform="android" gap:qualifier="lhdpi" />
+</platform>
