@@ -2,6 +2,18 @@
 <html>
 <head>
 <style>
+
+
+html,body {
+    height:100%;
+}
+.h_iframe iframe {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
         
 footer {
     bottom:0; left:0;
@@ -15,11 +27,16 @@ footer {
 <body>
     <br>
     <footer>
- App number 7
+ App number 8
 </footer>
 
-<br>
-<iframe src="http://www.swcdomain.co.uk/euro2016v03" width=100% height=1000 frameBorder="0"></iframe>
+<div class="container">
+    <div class="h_iframe">
+        <iframe  src="http://www.swcdomain.co.uk/euro2016v03" frameborder="0" allowfullscreen></iframe>
+    </div>
+</div>
+
+<!-- <iframe src="http://www.swcdomain.co.uk/euro2016v03" width=100% height=1000 frameBorder="0"></iframe> -->
 
 </body>
 </html>
